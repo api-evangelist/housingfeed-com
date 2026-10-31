@@ -64,5 +64,124 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-housingfeed-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://housingfeed.com/
+HousingFeed provides a US rental listings data feed and API, aggregating property manager and owner listings directly from their websites and leasing software. The listings are verified weekly, licensed for display in third‑party products, and include detailed fields such as photos, coordinates, and pricing. HousingFeed also offers a separate Data API for internal research and analysis, billed per row. The service targets developers building housing‑related applications, offering free sample data and a transparent pricing model.
+
+**Areas:** RealEstate · Rentals · DataAPI · US · Listings
+
+## housingfeed-com on APIs.io
+
+Everything profiled for housingfeed-com is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/housingfeed-com/](https://apis.io/providers/housingfeed-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [housingfeed-com Sample API](https://apis.io/apis/housingfeed-com/housingfeed-com-sample-api/) — The Sample API from housingfeed-com — 1 operation(s) for sample.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Housingfeed Com Agentic Access](https://apis.io/agentic-access/housingfeed-com/housingfeed-com-agentic-access/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [housingfeed-com API Rules](https://apis.io/rules/housingfeed-com/housingfeed-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Housingfeed Com Authentication](https://apis.io/security/housingfeed-com/housingfeed-com-authentication/)
+- [Housingfeed Com Domain Security](https://apis.io/security/housingfeed-com/housingfeed-com-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Housingfeed Com Scopes](https://apis.io/scopes/housingfeed-com/housingfeed-com-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Housingfeed Com Plans Pricing](https://apis.io/plans/housingfeed-com/housingfeed-com-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Housingfeed Com Rate Limits](https://apis.io/rate-limits/housingfeed-com/housingfeed-com-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://housingfeed.com/)
+- [Documentation](https://housingfeed.com/docs)
+- [Getting started](https://housingfeed.com/docs#getting-started)
+- [API reference](https://housingfeed.com/real-estate-api)
+- [Pricing](https://housingfeed.com/pricing)
+- [Support](https://housingfeed.com/contact)
+- [Terms of service](https://housingfeed.com/terms)
+- [Privacy policy](https://housingfeed.com/privacy)
+- [GitHub](https://github.com/iljbrands-boop/housingfeed)
+
+## API Evangelist rating
+
+**Kin Score 55.0** — strong · rubric 0.25.0 · scored 2026-10-30
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 41.6 |
+| Contract governance | 65.5 |
+| Operational transparency | 24.2 |
+| Developer ergonomics | 61.2 |
+| Access clarity | 60.0 |
+
+**Agent readiness 51.7** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | documented (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 34.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/housingfeed-com/](https://apis.io/providers/housingfeed-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for housingfeed-com: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/housingfeed-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
